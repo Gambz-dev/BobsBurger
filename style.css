@@ -1,0 +1,192 @@
+
+@font-face{
+    font-family:"dear";
+    src:url("./fonts/dear_sunshine/Dear.ttf")}
+
+@font-face{font-family:"patrol";
+    src:url("./fonts/Dirty Headline.ttf")}
+
+
+body {
+    letter-spacing: 2px;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background: linear-gradient(180deg, #ff7357 0%, rgba(242, 123, 97, 1) 100%);
+}
+body .burg {
+    height: 50%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body .shado {
+    top: 65%;
+    width: 40%;
+    left: 48%;
+    opacity: 0.5;
+    transform: translateX(-50%);
+}
+body .header {
+    width: 100%;
+    height: 15%;
+    font-family: "dear";
+    font-size: 50px;
+    color: #ffdf50;
+}
+body .side {
+    width: 30%;
+    height: 85%;
+}
+body .side .txt {
+    color: white;
+    font-family: "patrol";
+    font-size: 50px;
+}
+body .side .circleCtn .circle:nth-child(1) {
+    background-color: transparent;
+    border: 3px solid #ffdbd3;
+}
+body .side .circleCtn .circle {
+    width: 10px;
+    height: 10px;
+    background-color: #fab1a0;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+body .side .combi p {
+    margin: 0;
+    font-size: 25px;
+}
+body .side .combi p:nth-child(1) {
+    font-family: "dear";
+    color: white;
+}
+body .side .combi p:nth-child(2) {
+    margin-top: 10px;
+    font-family: "patrol";
+    color: #ffdf50;
+}
+body .side img {
+    height: 20%;
+    margin-bottom: 5%;
+}
+body .btn {
+    color: #fff;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "patrol";
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding: 8px 25px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+body .p50 {
+    right: 15%;
+    font-size: 260px;
+    z-index: 10;
+    top: 8%;
+    letter-spacing: 22px;
+    font-family: "patrol";
+    color: #fff;
+}
+body .multitxt {
+    top: 42%;
+    right: 17%;
+    text-align: justify;
+    font-family: "patrol";
+}
+body .multitxt div {
+    color: white;
+    margin-top: -25px;
+}
+body .multitxt div:nth-child(1) {
+    font-size: 70px;
+}
+body .multitxt div:nth-child(2) {
+    font-size: 112px;
+}
+body .multitxt div:nth-child(3) {
+    font-size: 86px;
+}
+body .multitxt div:nth-child(4) {
+    margin-top: 0;
+    font-size: 21px;
+}
+body .reflect {
+    height: 100%;
+    width: 80%;
+    background: #fff;
+    background: linear-gradient(180deg, rgba(255, 255, 255, .3) 30%, rgba(255, 255, 255, 0) 100%);
+    z-index: 11;
+    top: 0;
+    left: 60%;
+    transform: skewX(-25deg);
+}
+.absolute {
+    position: absolute;
+}
+.flex {
+    display: flex;
+}
+.centerCenter {
+    align-items: center;
+    justify-content: center;
+}
+.vertical {
+    flex-direction: column;
+}
+.alignCenter {
+    align-items: center;
+}
+.justifyStart {
+    justify-content: flex-start;
+}
+.spaceBetween {
+    justify-content: space-between;
+}
+@media screen and (max-width: 1740px) {
+    body .side .txt {
+        font-size: 40px;
+   }
+    body .p50 {
+        right: 15%;
+        font-size: 200px;
+        top: 8%;
+   }
+}
+@media screen and (max-width: 1370px) {
+    body .side .txt {
+        font-size: 32px;
+   }
+    body .p50 {
+        right: 15%;
+        font-size: 190px;
+        top: 8%;
+   }
+    body .multitxt {
+        top: 50%;
+        right: 17%;
+        text-align: justify;
+        font-family: "patrol";
+   }
+    body .multitxt div {
+        color: white;
+        margin-top: -25px;
+   }
+    body .multitxt div:nth-child(1) {
+        font-size: 50px;
+   }
+    body .multitxt div:nth-child(2) {
+        font-size: 80px;
+   }
+    body .multitxt div:nth-child(3) {
+        font-size: 62px;
+   }
+    body .multitxt div:nth-child(4) {
+        margin-top: 0;
+        font-size: 14px;
+   }
+}
